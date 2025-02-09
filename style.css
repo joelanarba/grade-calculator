@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.5rem;
+    background: linear-gradient(to bottom, rgb(24, 94, 160) 30%, rgb(244, 241, 241) 70%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 40rem;
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex; 
+    padding: 2rem;
+    flex-direction: column;
+   
+}
+.container input{
+    border: 1px solid black;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: column;
+    width: 70%;
+    /* width: ; */
+    border-radius: 1.2rem;
+    /* margin-top: 1rem; */
+}
+.container h2{
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
+.container button{
+    border: none;
+    border-radius: 1.3rem;
+    background: gold;
+    font-size: 1.6rem;
+    width: 15rem;
+    align-items: center;
+    display: block;
+    margin: 1rem auto; 
+    height: 4rem;
+    color: black;
+}
+#output{
+    color: black;
+    margin-bottom: 1rem;
+}
