@@ -29,7 +29,7 @@ function calculateGrade() {
     } else if (score >= 50) {
         grade = "D";
     } else {
-        grade = "F";
+        grade = "E";
     }
 
     output.innerHTML = `Your grade for ${courseName.value} is <strong>${grade}</strong>.`;
