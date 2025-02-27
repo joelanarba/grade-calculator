@@ -9,7 +9,7 @@ html{
 }
 body {
     font-size: 1.5rem;
-    background: linear-gradient(to bottom, rgb(24, 94, 160) 30%, rgb(244, 241, 241) 70%);
+    background: linear-gradient(to bottom, rgb(59, 135, 206) 30%, rgb(244, 241, 241) 70%);
     height: 100vh;
     display: flex;
     align-items: center;
